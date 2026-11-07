@@ -1,0 +1,27 @@
+The complete, polished browser-based Snake game has been created at [`/root/games/snake/index.html`](file:///root/games/snake/index.html).
+
+### Summary of Features
+
+- **Self-Contained & Zero Dependencies**: Single file with all HTML5, CSS3, and vanilla JavaScript bundled together—no CDNs, no external assets, and no build step required.
+- **Modern Dark Neon Cyber Theme**:
+  - Deep dark cyber backdrop with subtle scanline overlay and glowing radial ambient lighting.
+  - Glowing neon cyan, mint, pink, and gold color scheme with glassmorphism HUD cards.
+  - Screen shake effect and neon particle explosion on collision.
+- **21×21 Grid & Responsive Canvas**:
+  - Fixed 21×21 logical grid with dynamic HiDPI/Retina canvas scaling for crisp visuals on all displays.
+  - Subtle neon grid lattice and glowing intersection dots.
+- **Dynamic Gradient Snake & Animated Food**:
+  - Snake body with smooth color gradient transitioning from cyan/mint at the head to electric purple at the tail.
+  - Expressive eyes with pupils dynamically looking in the current movement direction, shifting to 'X' eyes on game over.
+  - Pulsing neon apple with animated aura ring and leaf detail.
+  - Floating score indicators (`+১০`, `+২০`) and burst particles on eating food.
+- **Synthesized Web Audio API**:
+  - Melodic chimes on eating food, 4-note ascending fanfare on level up, frequency-sweeping crunch on crash, and soft tactile clicks on turns.
+  - Sound toggle button with mute/unmute state.
+- **Input & Controls**:
+  - **Keyboard**: Arrow keys and WASD for movement; <kbd>Space</kbd> or <kbd>P</kbd> for pause/resume; <kbd>M</kbd> for audio toggle; <kbd>R</kbd> for restart.
+  - **Touch & Mobile**: Responsive on-screen neon D-pad plus gesture swipe detection directly on the game canvas.
+- **Progression & Bengali Interface**:
+  - Full Bengali UI (বাংলা লেবেল ও সংখ্যা): স্কোর (Score), সর্বোচ্চ রেকর্ড (Best Score via `localStorage`), লেভেল (Level).
+  - Speed automatically increases every 5 food items eaten.
+  - Interactive Start, Pause, and Game Over modal overlays.
